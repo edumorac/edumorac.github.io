@@ -1,2 +1,2 @@
 # edumorac.github.io
-Hi! I developed this simple profile landing for an assignment at MIT. 
+Hi! This is my personal portfolio website. You can visit the portfolio here: www.edumora.dev
