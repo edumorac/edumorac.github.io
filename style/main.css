@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
+    color: #212529;
+}
+
+/* TEXT */
+
+h1 {
+    font-size: 70px;
+    font-weight: 800;
+    color: #fff;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+h3 {
+    color: #fff;
+
+}
+
+p {
+    font-size: 22px;
+}
+
+.card-text {
+    color: #212529;
+    font-size: 18px;
+}
+
+/* END TEXT */  
+
+/* LANDING AREA */
+
+.landing-hola {
+    padding: 350px 400px 0 400px;
+    background: linear-gradient(#212529, #4831d4);
+}
+
+.hola-mundo {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.icon-mundo {
+    color: #35BD96;
+}
+
+.cont-bio-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-color {
+    color: #35BD96;
+}
+
+.text-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+    .btn-landing {
+        padding-bottom: 300px;
+        text-align: center;
+    }
+
+    .btn-landing-color {
+        text-decoration: none;
+        background: #35BD96;
+        border: #35BD96;
+        color: #fff;
+        padding: 1rem 2.5rem;
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+
+    .btn-landing-color:hover {
+        background: #fff;
+        color: #4831d4;
+        border: #fff solid;
+    }
+
+
+/* END LANDING AREA */
+
+/* VIDEO AREA */
+
+.video-area {
+    padding: 40px 0;
+}
+
+.video-embed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+
+/* END VIDEO AREA */
+
+/* ABOUT */
+
+    .about-area {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: linear-gradient(140deg, #35BD96, #4831d4);
+        color: #fff;
+        padding: 100px;
+    }
+
+    .about-title {
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .about-text {
+        padding: 0 200px 0 200px;
+    }
+
+    .work-philosophy {
+        padding-top: 40px;
+    }
+
+    .toolkit-area {
+        padding-top: 40px;
+    }
+
+    .toolkit {
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .icons-interests {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .icons-list {
+        font-size: 26px;
+        padding: 0 15px;
+    }
+
+    /* END ABOUT */
+
+/* WORKING ON AREA */
+
+.personal-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 100px 100px 100px;
+    background-color: #fff;
+    color: #4831d4;
+}
+
+.projects-text {
+    padding: 0 200px 0 200px;
+}
+
+.repository-visit {
+    padding-top: 40px;
+}
+
+.btn-repo {
+    text-decoration: none;
+    background: #35BD96;
+    border: #35BD96;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.btn-repo:hover {
+    background: #4831d4;
+    color: #fff;
+    border: #4831d4 solid;
+}
+
+.projects-visit {
+    padding-top: 40px;
+}
+
+.btn-projects {
+    text-decoration: none;
+    background: #4831d4;
+    border: #4831d4;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.btn-projects:hover {
+    background: #35BD96;
+    color: #fff;
+    border: #35BD96 solid;
+}
+
+/* END WORKING ON AREA */
+
+/* PORTFOLIO AREA */
+
+.github-portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #4831d4;
+    padding: 100px 0 20px 0;
+    text-align: center;
+}
+
+.portfolio-title {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.portfolio-img-cont {
+    background-color: #fff;
+    padding: 0 0 40px 100px;
+}
+
+.portfolio-img-div {
+    text-align: end;
+}
+
+.portfolio-img {
+    max-width: 80%;
+}
+
+.portfolio-col {
+    color: #4831d4;
+    padding: 100px 0 0 50px;
+}
+
+.portfolio-visit {
+    background-color: #fff;
+    padding: 60px 0 0 0;
+}
+
+.btn-portfolio {
+    background-color: #35BD96;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 1.5rem;
+    border: #35BD96 solid;
+    text-decoration: none;
+}
+
+.btn-portfolio:hover {
+    background-color: #fff;
+    color: #4831d4;
+    border: #fff solid;
+}
+
+.portfolio-test {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 100px;
+}
+
+.portfolio-col-1 {
+    background-image: url(/img/brightlab-cover-blue.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #35BD96;
+    padding: 300px 20px 40px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.portfolio-col-2 {
+    background-image: url(/img/Kidobit-ppl.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #35BD96;
+    padding: 300px 20px 40px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.highlight {
+    background-color: #fff;
+    color: #4831d4;
+    opacity: .9;
+}
+
+.repository-visit {
+    background-color: #fff;
+    padding: 60px 0 20px 0;
+}
+
+.btn-repo {
+    background-color: #35BD96;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    border: #35BD96 solid;
+    text-decoration: none;
+}
+
+.btn-repo:hover {
+    background-color: #4831d4;
+    color: #35BD96;
+    border: #4831d4 solid;
+}
+
+.mit-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 100px 100px 100px;
+}
+
+.mit-title {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.project-1 {
+    background-color: #4831d4;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.project-2 {
+    background-color: #4831d4;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.project-3 {
+    background-color: #4831d4;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+/* END PORTFOLIO AREA */
+
+/* FOOTER AREA */
+
+    .footer-area {
+        text-align: center;
+        padding: 50px 0 20px 0;
+        background-color: #212529;
+        color: #fff;
+    }
+
+    .contact-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
+    .email-click {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .email-click:hover {
+        color: #4831d4;
+    }
+
+    .social-media-links {
+        color: #4831d4;
+    }
+
+    .social-media-links:hover {
+        color: #35BD96;
+    }
+
+    .fa-instagram {
+        margin: 5px;
+    }
+
+    .fa-github {
+        margin: 5px;
+    }
+
+    .fa-linkedin {
+        margin: 5px;
+    }
+
+    .btn-cv-area {
+        padding: 40px 0;
+    }
+
+    .btn-cv {
+        background-color: #35BD96;
+        color: #fff;
+        font-weight: 300;
+        font-size: .8rem;
+        padding: 1rem;
+        border: #35BD96 solid;
+        text-decoration: none;
+    }
+
+    .btn-cv:hover {
+        background-color: #4831d4;
+        color: #fff;
+        border: #4831d4 solid;
+    }
+
+    .footer-dev {
+        font-size: 16px;
+        color: #fff;
+        padding: 40px 0 0 0;
+    }
+
+/* FOOTER AREA */
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1140px) {
+    h1 {
+    font-size: 55px; 
+    }
+
+    .landing-hola {
+        padding: 180px 0 0 0;
+        text-align: center;
+    }
+
+    .text-1 {
+        font-size: 26px;
+    }
+
+    .btn-landing {
+        padding-bottom: 120px;
+    }
+
+    .cont-bio-profile {
+        padding-bottom: 10px;
+    }
+
+    .video-embed {
+        padding: 40px 0;
+    }
+
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
+
+    .about-area {
+        padding: 80px 0;
+    }
+
+    .about-title {
+        font-size: 34px;
+    }
+
+    .about-text {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .about-zone {
+        padding-bottom: 20px;
+    }
+
+    .work-philosophy {
+        padding-bottom: 20px;
+    }
+
+    .toolkit-area {
+        padding-top: 20px;
+    }
+
+    .toolkit {
+        font-size: 34px;
+    }
+
+    .icons-list {
+        font-size: 18px;
+    }
+
+    .personal-projects {
+        padding: 40px 0 60px 0;
+    }
+
+    .projects-title {
+        font-size: 40px;
+    }
+
+    .projects-text {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .repository-visit {
+        padding-top: 20px;
+    }
+
+    .btn-repo {
+        padding: 1rem;
+    }
+    
+    .email-click {
+        font-size: 16px;
+    }
+
+    .portfolio-test {
+        padding: 0 10px;
+    }
+
+    .portfolio-col-1 {
+        font-size: 1rem;
+        padding: 100px 20px 20px 20px;
+    }
+
+    .portfolio-col-2 {
+        font-size: 1rem;
+        padding: 100px 20px 20px 20px;
+    }
+
+    .btn-portfolio {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .mit-projects {
+        padding: 0 10px 40px 10px;
+    }
+    
+    .mit-title {
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 50px;
+    }
+
+    .project-1 {
+        font-size: 1rem;
+        padding: 60px 10px 40px 20px;
+
+    }
+
+    .project-2 {
+        font-size: 1rem;
+        padding: 60px 10px 40px 20px;
+
+    }
+
+    .project-3 {
+        font-size: 1rem;
+        padding: 60px 10px 40px 20px;
+
+    }
+}
